@@ -8,7 +8,7 @@ html,body {
     background-image: url('../img/mountain.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
-    background-position: center();
+    background-position: center;
 }
 #search-form {
     height: 150px;
