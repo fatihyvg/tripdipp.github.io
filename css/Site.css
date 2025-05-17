@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html,body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+#main-hero {
+    background-image: url('../img/mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center();
+}
+#search-form {
+    height: 150px;
+    width: 100%;
+    background: white;
+}
+.nav-menu > .navbar-item:hover {
+    color: none;
+    background: black;
+}
+.span {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
