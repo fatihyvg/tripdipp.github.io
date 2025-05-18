@@ -2,6 +2,7 @@ function onloadmainbody(){
     onloadheader('hero-head');
     onloaddestview('destination-lists');
     onloadsloganview('slogan-hero');
+    onloadsloganview('blog-beet-hero');
     onloadplaceview('place-hero');
     onloadfrontblogview('front-blog');
     onloadfooter('footer');
