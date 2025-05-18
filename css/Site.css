@@ -3,6 +3,10 @@ html,body {
     padding: 0;
     background: white;
 }
+a {
+    font-family: Roboto;
+    font-weight: normal;
+}
 #main-hero {
     background-image: url('../img/mountain.jpg');
     background-repeat: no-repeat;
@@ -21,7 +25,7 @@ html,body {
     width: 100%;
     background: white;
 }
-slogan {
+#slogan {
     font-family: Roboto;
     font-size: 16px;
 }
@@ -36,7 +40,6 @@ slogan {
 .footer {
     height: 100px;
     width: 100%;
-    background: black;
 }
 @font-face {
     font-family: Roboto;

@@ -2,6 +2,8 @@ function onloadmainbody(){
     onloadheader('hero-head');
     onloaddestview('destination-lists');
     onloadsloganview('slogan-hero');
+    onloadplaceview('place-hero');
+    onloadfrontblogview('front-blog');
     onloadfooter('footer');
  
 }
@@ -14,6 +16,13 @@ function onloaddestview(classname){
 }
 function onloadsloganview(classname){
       $('#'+classname+'').load('pages/home/slogan.html');
+
+}
+function onloadplaceview(classname){
+      $('#'+classname+'').load('pages/home/places.html');
+}
+function onloadfrontblogview(classname){
+      $('#'+classname+'').load('pages/home/front-blog.html');
 
 }
 function onloadfooter(classname){
