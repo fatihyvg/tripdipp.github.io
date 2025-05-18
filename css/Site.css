@@ -23,3 +23,8 @@ html,body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
 }
+.footer {
+    height: 100px;
+    width: 100%;
+    background: black;
+}
