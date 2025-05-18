@@ -7,7 +7,7 @@ a {
     font-family: Roboto;
     font-weight: normal;
 }
-#main-hero {
+.main-hero {
     background-image: url('../img/mountain.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
@@ -28,6 +28,12 @@ a {
 #slogan {
     font-family: Roboto;
     font-size: 16px;
+}
+.main-hero {
+    background-image: url('../img/mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
 }
 .nav-menu > .navbar-item:hover {
     color: none;

@@ -8,10 +8,10 @@ function onloadmainbody(){
  
 }
 function onloadheader(classname){
-     $('.'+classname+'').load('pages/home/header.html');
+      $('.'+classname+'').load('pages/home/header.html');
 }
 function onloaddestview(classname){
-    $('#'+classname+'').load('pages/home/destination.html'); 
+      $('#'+classname+'').load('pages/home/destination.html'); 
 
 }
 function onloadsloganview(classname){
