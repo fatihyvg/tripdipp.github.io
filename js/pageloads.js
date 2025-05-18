@@ -1,7 +1,8 @@
 function onloadmainbody(){
     onloadheader('hero-head');
-    onloaddestview('destination-lists')
-    onloadfooter('footer')
+    onloaddestview('destination-lists');
+    onloadsloganview('slogan-hero');
+    onloadfooter('footer');
  
 }
 function onloadheader(classname){
@@ -9,6 +10,10 @@ function onloadheader(classname){
 }
 function onloaddestview(classname){
     $('#'+classname+'').load('pages/home/destination.html'); 
+
+}
+function onloadsloganview(classname){
+      $('#'+classname+'').load('pages/home/slogan.html');
 
 }
 function onloadfooter(classname){
