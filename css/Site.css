@@ -7,12 +7,6 @@ a {
     font-family: Roboto;
     font-weight: normal;
 }
-.main-hero {
-    background-image: url('../img/mountain.jpg');
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center;
-}
 #slogan-hero {
     background-image: url('../img/capodocia.jpg');
     background-repeat: no-repeat;
